@@ -19,37 +19,60 @@ public class IfStatement {
 //            System.out.println("It's 19th century");
 //        }
 
-        // write this, and practice with if statements
-        //change temperature, change output strings
-        int temperature = 100;
-
-        if(temperature == 100) {
-            System.out.println("Frying");
-        }
-        temperature = 10;
-        if(temperature >= 70){
-            System.out.println("Its hot");
-        }
-        if(temperature < 70 && temperature >= 60){
-            System.out.println("Its warm");
-        }
-        if(temperature < 20){
-            System.out.println("Freezing");
-        }
-        if(temperature < 60 && temperature >= 20){
-            System.out.println("Cool");
-        }
+//        // write this, and practice with if statements
+//        //change temperature, change output strings
+//        int temperature = 100;
+//
+//        if(temperature == 100) {
+//            System.out.println("Frying");
+//        }
+//        temperature = 10;
+//        if(temperature >= 70){
+//            System.out.println("Its hot");
+//        }
+//        if(temperature < 70 && temperature >= 60){
+//            System.out.println("Its warm");
+//        }
+//        if(temperature < 20){
+//            System.out.println("Freezing");
+//        }
+//        if(temperature < 60 && temperature >= 20){
+//            System.out.println("Cool");
+//        }
 
         // 1. write a program that checks whether number
         //      is positive or negative
         // ex: 1 => positive
         // ex: -100 => negative
         // hint: N > 0 => positive, N < 0 => negative
+        int number = 12312;
+        if(number > 0){
+            System.out.println("its positive");
+        }
+        if(number < 0){
+            System.out.println("its negative");
+        }
+        if(number == 0){
+            System.out.println("not positive neither negative");
+        }
 
         // 2. write a program that check whether number
         //      is even or odd
         // ex: 2 => even
         // ex: 3 => odd
+        int num = 3;
+        if(num % 2 == 0){
+            System.out.println("Even");
+        }
+        if(num % 2 != 0){
+            System.out.println("Odd");
+        }
+
+        if(3 != 10){
+            System.out.println("3 not equal to 10");
+        }
+
+
 
 
 
