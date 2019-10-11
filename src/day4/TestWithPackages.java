@@ -18,9 +18,11 @@ public class TestWithPackages {
         Multiply(num1, num2);
         Deduct(num1, num2);
     }
+
     private static void Add(int num1, int num2) {
         System.out.println(num1 + num2);
     }
+
     private static void Deduct(int num1, int num2) {
         System.out.println(num1 - num2);
     }
