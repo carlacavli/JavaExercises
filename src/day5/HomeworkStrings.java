@@ -1,4 +1,4 @@
-package day6;
+package day5;
 
 public class HomeworkStrings {
 
