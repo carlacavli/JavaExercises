@@ -23,12 +23,29 @@ public class ComparingStrings {
         }
 
         String nameOfCourse = "TS";
-        if(nameOfCourse.equals("TS")){
+        String otherString = "TS";
+        if(nameOfCourse.equals(otherString)){ // "TS" is equal to "TS"
             System.out.println("You gonna be Tester after 6 months");
         }
 
         // Task 1:
         //  check if string is equals to your name, print your surname
         //  ex: Michale => Jackson
+        String name2 = "Michale";
+        String surname = "Jackson";
+
+        if(name2.equals("Michale")){
+            System.out.println(surname);
+        }
+
+        int number = 10;
+        if (number == 10) {
+            System.out.println("its ten");
+        }
+
+//        summary
+//        in String use .equals
+        // in number(int, double, etc....) use ==
+        // to check equality
     }
 }
