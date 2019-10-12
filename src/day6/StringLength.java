@@ -1,6 +1,6 @@
 package day6;
 
-public class JavaClass4 {
+public class StringLength {
     public static void main(String[] args) {
         //String Length
         String s1 = "ABCDE";
@@ -36,7 +36,6 @@ public class JavaClass4 {
         // is less than 0,
         // if it is less print "can not proceed",
         // else "we can do it"
-
         // ex1: s1="LongStringHere", s2="ShortOne"
         //       =>  "we can do it"
         // ex2: s1="short", s2="loooooooong"
