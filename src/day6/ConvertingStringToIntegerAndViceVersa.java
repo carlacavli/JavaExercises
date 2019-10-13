@@ -47,7 +47,10 @@ public class ConvertingStringToIntegerAndViceVersa {
         System.out.println(average);
 
         // to convert string to double
-        String v6 = "22.234234";
-        Double.valueOf(v6);
+        String v6 = "160.95";
+        double price = Double.valueOf(v6);
+        double quantity = 30;
+
+        boolean checkingPrice = price * quantity == 321.9;
     }
 }

@@ -4,8 +4,10 @@ public class StringSubstrings {
 
     //Substrings
     public static void main(String[] args) {
-                        //012345678910
+                        //0123456789101112
         String string1 = "Hello World";
+        System.out.println(string1.substring(10, 11));
+
                           // provide beginning index
         System.out.println(string1.substring(6)); // World
                           // provide beginning index and index where to stop
