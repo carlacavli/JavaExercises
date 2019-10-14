@@ -1,6 +1,6 @@
 package day9;
 
-public class IfElseStatement {
+public class IfElseStatement1 {
 
     // Java program to illustrate if-else-if ladder
     public static void main(String[] args) {
