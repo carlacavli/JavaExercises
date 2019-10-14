@@ -1,4 +1,4 @@
-package day9;
+package day10;
 
 public class TernaryOperatorTask1 {
     //find out max number between two inputs, use user input and ternary operator
