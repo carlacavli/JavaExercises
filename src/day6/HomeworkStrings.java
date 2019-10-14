@@ -1,4 +1,4 @@
-package day6Anwar;
+package day6;
 
 public class HomeworkStrings {
 
