@@ -7,14 +7,14 @@ public class HomeworkIfElseSwitch {
 //        {
 //            int x = 10;
 //            if (x) {
-//                System.out.println("HELLO GEEKS");
+//                System.out.println("HELLO TECHNO");
 //            } else {
 //                System.out.println("BYE");
 //            }
 //        }
 //    }
 ////Options:
-////1. HELLO GEEKS
+////1. HELLO TECHNO
 ////2. Compile time error
 ////3. Runtime Error
 ////4. BYE
@@ -25,7 +25,7 @@ public class HomeworkIfElseSwitch {
 //        {
 //            int x = 10;
 //            if (x)
-//                System.out.println("HELLO GEEKS");
+//                System.out.println("HELLO TECHNO");
 //            System.out.println("WELCOME");
 //
 //        else
@@ -35,9 +35,9 @@ public class HomeworkIfElseSwitch {
 //        }
 //    }
 ////Options:
-////1. HELLO GEEKS
+////1. HELLO TECHNO
 ////WELCOME
-////2. HELLO GEEKS
+////2. HELLO TECHNO
 ////3. BYE
 ////4. Compile time error
 //
@@ -66,7 +66,7 @@ public class HomeworkIfElseSwitch {
 //            int x = 10, y = 20;
 //            if (x < y) {
 //                if (x > y) {
-//                    System.out.println("HELLO GEEKS");
+//                    System.out.println("HELLO TECHNO");
 //                } else {
 //                    System.out.println("WELCOME");
 //                }
@@ -74,7 +74,7 @@ public class HomeworkIfElseSwitch {
 //        }
 //    }
 ////Output:
-////1. HELLO GEEKS
+////1. HELLO TECHNO
 ////2. Compile time error
 ////3. WELCOME
 ////4. No Output
@@ -148,12 +148,12 @@ public class HomeworkIfElseSwitch {
 //            int x = 10;
 //            Switch(x)
 //            {
-//                System.out.println("GEEKS");
+//                System.out.println("TECHNO");
 //            }
 //        }
 //    }
 ////Options:
-////1. GEEKS
+////1. TECHNO
 ////2. Compile time error
 ////3. No Output
 ////4. Run-time error
@@ -169,7 +169,7 @@ public class HomeworkIfElseSwitch {
 //                    System.out.println("HELLO");
 //                    break;
 //                case y:
-//                    System.out.println("GEEKS");
+//                    System.out.println("TECHNO");
 //                    break;
 //            }
 //        }
@@ -177,7 +177,7 @@ public class HomeworkIfElseSwitch {
 ////Options:
 ////1. HELLO
 ////2. No Output
-////3. GEEKS
+////3. TECHNO
 ////4. Compile time error
 //
 //    class MainClass {
@@ -191,13 +191,13 @@ public class HomeworkIfElseSwitch {
 //                    System.out.println("HELLO");
 //                    break;
 //                case y:
-//                    System.out.println("GEEKS");
+//                    System.out.println("TECHNO");
 //                    break;
 //            }
 //        }
 //    }
 ////Options:
-////1. GEEKS
+////1. TECHNO
 ////2. Compile time error
 ////3. HELLO
 ////4. NO Output
@@ -213,14 +213,14 @@ public class HomeworkIfElseSwitch {
 //                    System.out.println("HELLO");
 //                    break;
 //                case 10 + 1 + 1:
-//                    System.out.println("GEEKS");
+//                    System.out.println("TECHNO");
 //                    break;
 //            }
 //        }
 //    }
 ////Output:
 ////1. Compile time error
-////2. GEEKS
+////2. TECHNO
 ////3. HELLO
 ////4. No Output
 //
