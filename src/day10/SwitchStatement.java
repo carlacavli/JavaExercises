@@ -1,4 +1,4 @@
-package day11Anwar;
+package day10;
 
 public class SwitchStatement {
 

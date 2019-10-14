@@ -1,4 +1,4 @@
-package day5Anwar;
+package day5;
 
 public class TestWithPackages {
     public static void main(String[] args) {

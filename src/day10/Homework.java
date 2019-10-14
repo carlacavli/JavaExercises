@@ -1,6 +1,4 @@
-package day11Anwar;
-
-import java.util.Scanner;
+package day10;
 
 public class Homework {
 
