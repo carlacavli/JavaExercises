@@ -2,39 +2,20 @@ package day9;
 
 public class IfElseStatement {
 
+    // Java program to illustrate if-else-if ladder
     public static void main(String[] args) {
+        int i = 20;
 
-        int number = 10;
-        if (number > 0) {
-            System.out.println("Number is positive.");
-        }
-        System.out.println("This statement is always executed.");
-
-
-        int grade = 4; // 5, 4, 3, 2
-
-        if (grade == 5) {
-            System.out.println("Excellent");
-        } else if (grade > 2) {
-            System.out.println("Ok");
-        } else {
-            System.out.println("Fail");
-        }
-
-
-        boolean isSleeping = true;
-        if (!isSleeping) {
-            System.out.println("Awake");
-        } else {
-            System.out.println("Sleeping");
-        }
+        if (i == 10)
+            System.out.println("i is 10");
+        else if (i == 15)
+            System.out.println("i is 15");
+        else if (i == 20)
+            System.out.println("i is 20");
+        else
+            System.out.println("i is not present");
     }
-
-    //TODO
-    //  0. check whether number is even or odd
-    //   ex: 2 => Even, 3 => Odd
-    //  1. find lowest in the following numbers, using if-else statements
-    //   a = 12*34, b = 45*28
-    //  2. find highest  in the following numbers, using if-else statements
-    //   a = 12*34, b = 45*28, c = 32*24
 }
+//Output:
+//
+//i is 20

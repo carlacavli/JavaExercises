@@ -1,6 +1,6 @@
-package day10;
+package day9;
 
-public class SwitchStatement {
+public class SwitchStatement2 {
 
 
     public static void main(String[] args) {
