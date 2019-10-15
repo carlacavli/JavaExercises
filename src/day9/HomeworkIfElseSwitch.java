@@ -1,16 +1,21 @@
 package day9;
 
 public class HomeworkIfElseSwitch {
+    // highlight ctrl + /
+//    public static void main(String[] args) {
+//        int x = 10;
 //
-//    public class Test {
-//        public static void main(String[] args)
-//        {
-//            int x = 10;
-//            if (x) {
-//                System.out.println("HELLO TECHNO");
-//            } else {
-//                System.out.println("BYE");
-//            }
+////        Boolean myVal = false;
+////
+////        if(myVal==true)
+////        if(myVal){
+////
+////        }
+//
+//        if (x) {
+//            System.out.println("HELLO TECHNO");
+//        } else {
+//            System.out.println("BYE");
 //        }
 //    }
 ////Options:
@@ -20,8 +25,7 @@ public class HomeworkIfElseSwitch {
 ////4. BYE
 //
 //    public class Test {
-//        public
-//        static void main(String[] args)
+//        public static void main(String[] args)
 //        {
 //            int x = 10;
 //            if (x)

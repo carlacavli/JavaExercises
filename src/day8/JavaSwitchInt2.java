@@ -2,6 +2,7 @@ package day8;
 
 import java.util.Scanner;
 
+
 // Write a program which will tell you day of week
 // 1 2 3 4 5 6 7
 // Monday, Tuesday etc..
@@ -10,13 +11,20 @@ import java.util.Scanner;
 //TODO Hint: you can copy paste previous task
 public class JavaSwitchInt2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new java.util.Scanner(System.in);
+
+        //345634534563457556745674567
+        //input: 1,2,33,4,5,67,
         int dayOfWeek = scanner.nextInt();
 
-        switch (dayOfWeek){
+        switch (dayOfWeek) {
             case 1:
                 System.out.println("Monday");
-            break;
+                break;
+            case 2:
+                System.out.println("Te");
+                break;
+
             //2
             //3
             //4
