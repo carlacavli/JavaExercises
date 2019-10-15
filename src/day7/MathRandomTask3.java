@@ -6,8 +6,7 @@ public class MathRandomTask3 {
     public static void main(String[] args) {
         int min = 10;
         int max = 20;
-        int range = max - min;
-        int randomInRange = min + (int) (Math.random() * (range + 1));
+        int randomInRange = min + (int) (Math.random() * (max - min + 1));
 
         int x = randomInRange;
         System.out.println(x);

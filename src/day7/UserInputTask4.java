@@ -4,12 +4,6 @@ package day7;
 //      where number is 0 <= N <= 3
 // ex: 0 => zero
 // ex: 3 => three
-
-// HW:2. write a program that prints number of word representation number
-//     where number is 0 <= N <= 3
-// ex: zero => 0
-//     one => 1
-
 import java.util.Scanner;
 
 public class UserInputTask4 {
