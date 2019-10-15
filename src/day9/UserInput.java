@@ -12,7 +12,7 @@ public class UserInput {
         System.out.print("Enter your name: ");
         String name = scan.nextLine();
         System.out.println("Welcome " + name + "!!!");
-        scan.close();
+        scan.close(); //why do we have to close.
 
     }
 }

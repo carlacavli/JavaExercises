@@ -1,5 +1,7 @@
 package day9;
 
+
+// done , homework
 public class SwitchStatementTask1 {
 
 //    Write a code that displays the name of the day
