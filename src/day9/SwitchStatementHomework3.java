@@ -1,9 +1,9 @@
 package day9;
 
-public class SwitchStatementTask4 {
+public class SwitchStatementHomework3 {
 
     //write a program that find the size.
-    // user input char and output the size of the clothes.
+    // user input integer and output the size of the clothes.
 
 //output
 //            "size is small"

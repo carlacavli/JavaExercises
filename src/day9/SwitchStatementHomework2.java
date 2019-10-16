@@ -1,6 +1,6 @@
 package day9;
 
-public class SwitchStatementTask2 {
+public class SwitchStatementHomework2 {
 
 //    write code to find out if a day is a weekday or a weekend day. use switch statement
 

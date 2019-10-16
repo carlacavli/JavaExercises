@@ -2,7 +2,7 @@ package day9;
 
 
 // done , homework
-public class SwitchStatementTask1 {
+public class SwitchStatementHomework1 {
 
 //    Write a code that displays the name of the day
 //    it declares an int named day whose value represents a day(1-7).
