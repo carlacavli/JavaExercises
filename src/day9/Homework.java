@@ -16,27 +16,27 @@ public class Homework {
 //        public static void main(String[] args)
 //        {
 //            for (;;)
-//                System.out.println("GEEKS");
+//                System.out.println("TECHNO");
 //        }
 //    }
 ////Options:
-////1.GEEKS
+////1.TECHNO
 ////2.Compile time error
 ////3.Run time Exception
-////4.GEEKS (Infinitely)
+////4.TECHNO (Infinitely)
 //
 //    class Test {
 //        public
 //        static void main(String[] args)
 //        {
-//            for (int i = 0; i < 3😉
-//            System.out.println("GEEKS");
+//            for (int i = 0; i < 3)
+//            System.out.println("TECHNO");
 //        }
 //    }
 ////Options:
-////1.GEEKS GEEKS GEEKS
+////1.TECHNO TECHNO TECHNO
 ////2.Compile time error
-////3.GEEKS (Infinitely)
+////3.TECHNO (Infinitely)
 ////4.No output
 //
 //    class Test {
@@ -63,7 +63,7 @@ public class Homework {
 //            int a = 10, b = 20;
 //            if (a < b) {
 //                if (a > b) {
-//                    System.out.println("HELLO GEEKS");
+//                    System.out.println("HELLO TECHNO");
 //                } else {
 //                    System.out.println("WELCOME");
 //                }
@@ -71,10 +71,10 @@ public class Homework {
 //        }
 //    }
 ////Option:
-////1.HELLO GEEKS
+////1.HELLO TECHNO
 ////2.WELCOME
 ////3.Compile time error
-////4.HELLO GEEKS WELCOME
+////4.HELLO TECHNO WELCOME
 //
 //    class Test {
 //        public static void main(String[] args)

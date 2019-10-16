@@ -46,16 +46,15 @@ public class HomeworkIfElseSwitch {
 ////4. Compile time error
 //
 //    public class Test {
-//        public
-//        static void main(String[] args)
-//        {
-//            int x = 10, y = 20;
-//            if (x < y)
-//                int a = 10;
-//            else {
-//                System.out.println("BYE");
-//            }
+//    public static void main(String[] args) {
+//        int x = 10, y = 20;
+//
+//        if (x < y)
+//            int a = 10;
+//         else {
+//            System.out.println("BYE");
 //        }
+//    }
 //    }
 ////Options:
 ////1. 10
@@ -64,11 +63,13 @@ public class HomeworkIfElseSwitch {
 ////4. Compile time error
 //
 //    public class Test {
-//        public
-//        static void main(String[] args)
+//        public static void main(String[] args)
 //        {
 //            int x = 10, y = 20;
+//            //if(10 < 20)
 //            if (x < y) {
+//
+//                //if(10 > 20)
 //                if (x > y) {
 //                    System.out.println("HELLO TECHNO");
 //                } else {
@@ -84,8 +85,7 @@ public class HomeworkIfElseSwitch {
 ////4. No Output
 //
 //    public class Test {
-//        public
-//        static void main(String[] args)
+//        public static void main(String[] args)
 //        {
 //            if (true)
 //                ;
@@ -97,6 +97,8 @@ public class HomeworkIfElseSwitch {
 ////3. Runtime error
 ////4. Runtime Exception
 //    class Test {
+    //Mac command + slash
+    //pc ctrl + /
 //        public static void main(String[] args)
 //        {
 //            String day = "Sunday";
@@ -119,7 +121,8 @@ public class HomeworkIfElseSwitch {
 ////4. Today is fun day
 //
 //    public class MainClass {
-//        enum day { MON,
+
+    //        enum day { MON,
 //            SAT,
 //            SUN }
 //
@@ -146,15 +149,13 @@ public class HomeworkIfElseSwitch {
 ////4. Compile time error
 //
 //    class MainClass {
-//        public
-//        static void main(String[] args)
-//        {
-//            int x = 10;
-//            Switch(x)
-//            {
-//                System.out.println("TECHNO");
-//            }
+//    public static void main(String[] args) {
+//        int x = 10;
+//
+//        Switch (x) {
+//            System.out.println("TECHNO");
 //        }
+//    }
 //    }
 ////Options:
 ////1. TECHNO
@@ -163,8 +164,7 @@ public class HomeworkIfElseSwitch {
 ////4. Run-time error
 //
 //    class MainClass {
-//        public
-//        static void main(String[] args)
+//        public static void main3(String[] args)
 //        {
 //            int x = 10;
 //            int y = 20;
@@ -172,7 +172,7 @@ public class HomeworkIfElseSwitch {
 //                case 10:
 //                    System.out.println("HELLO");
 //                    break;
-//                case y:
+//                case 85:
 //                    System.out.println("TECHNO");
 //                    break;
 //            }
@@ -185,20 +185,18 @@ public class HomeworkIfElseSwitch {
 ////4. Compile time error
 //
 //    class MainClass {
-//        public
-//        static void main(String[] args)
-//        {
-//            int x = 10;
-//            final int y = 20;
-//            switch (x) {
-//                case 10:
-//                    System.out.println("HELLO");
-//                    break;
-//                case y:
-//                    System.out.println("TECHNO");
-//                    break;
-//            }
+//    public static void main(String[] args) {
+//        int x = 10;
+//        final int y = 20;
+//        switch (x) {
+//            case 10:
+//                System.out.println("HELLO");
+//                break;
+//            case y:
+//                System.out.println("TECHNO");
+//                break;
 //        }
+//    }
 //    }
 ////Options:
 ////1. TECHNO
@@ -208,15 +206,15 @@ public class HomeworkIfElseSwitch {
 ////Output:
 //
 //    class MainClass {
-//        public
-//        static void main(String[] args)
+//
+//        public static void main(String[] args)
 //        {
 //            int x = 10;
 //            switch (x + 1 + 1) {
 //                case 10:
 //                    System.out.println("HELLO");
 //                    break;
-//                case 10 + 1 + 1:
+//                case 12:
 //                    System.out.println("TECHNO");
 //                    break;
 //            }
@@ -229,44 +227,43 @@ public class HomeworkIfElseSwitch {
 ////4. No Output
 //
 //    class MainClass {
-//        public
-//        static void main(String arg[])
-//        {
-//            char stream = 'C';
-//            int x = 2;
-//
-//            switch (x) {
-//                case 1:
-//                    System.out.println("SCIENCE, MATHS, PHYSICS");
-//                    break;
-//                case 2:
-//                    switch (stream) {
-//                        case 'A':
-//                            System.out.println("Welcome");
-//                            break;
-//                        case 'C':
-//                            System.out.println("TechnoStudy");
-//                            break;
-//                        case 'B':
-//                            System.out.println("Have a nice day");
-//                            break;
-//                    }
-//                    break;
-//                case 3:
-//                    switch (stream) {
-//                        case 'C':
-//                            System.out.println("Welcome");
-//                            break;
-//                        case 'D':
-//                            System.out.println("In");
-//                            break;
-//                        case 'E':
-//                            System.out.println("GFG");
-//                            break;
-//                    }
-//                    break;
-//            }
-//        }
+        public static void main(String arg[])
+        {
+            char stream = 'C';
+            int x = 2;
+
+            switch (x) {
+                case 1:
+                    System.out.println("SCIENCE, MATHS, PHYSICS");
+                    break;
+                case 2:
+                    switch (stream) {
+                        case 'A':
+                            System.out.println("Welcome");
+                            break;
+                        case 'C':
+                            System.out.println("TechnoStudy");
+                            break;
+                        case 'B':
+                            System.out.println("Have a nice day");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (stream) {
+                        case 'C':
+                            System.out.println("Welcome");
+                            break;
+                        case 'D':
+                            System.out.println("In");
+                            break;
+                        case 'E':
+                            System.out.println("GFG");
+                            break;
+                    }
+                    break;
+            }
+        }
 //    }
 ////    Options:
 ////1. Compile time error
