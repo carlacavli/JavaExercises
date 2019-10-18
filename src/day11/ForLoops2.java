@@ -1,4 +1,4 @@
-package day10;
+package day11;
 
 public class ForLoops2 {
     //aaaaaaarrrrryyyyuiiii //output a7r5y4i4
