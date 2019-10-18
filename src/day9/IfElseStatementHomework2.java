@@ -1,6 +1,6 @@
 package day9;
 
-public class IfElseStatementTask2 {
+public class IfElseStatementHomework2 {
 //Find the Largest Number Among Three Numbers using user Input
 //to find largest number among three numbers using nested if
 //    int a = 34;
