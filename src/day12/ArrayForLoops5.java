@@ -1,6 +1,6 @@
-package day11;
+package day12;
 
-public class ForLoops5 {
+public class ArrayForLoops5 {
     public static void main(String[] args) {
 
         System.out.println("Print the array Cities");

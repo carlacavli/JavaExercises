@@ -65,23 +65,5 @@ public class WhileLoopQuestions {
 ////3 Error: Unreachable statement
 ////4 Error: ; expected
 //
-//    class Test {
-//        public static void main(String[] args)
-//        {
-//            do {
-//                System.out.print(1);
-//                do {
-//
-//                    System.out.print(2);
-//
-//                } while (false);
-//
-//            } while (false);
-//        }
-//    }
-////Options:
-////1. 12
-////2. 21
-////3. 1
-////4. 2
+
 }
