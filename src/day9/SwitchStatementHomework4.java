@@ -2,7 +2,7 @@ package day9;
 
 import java.util.Scanner;
 
-public class SwitchStatementTask4 {
+public class SwitchStatementHomework4 {
     //write a program that find the size.
     // user input char and output the size of the clothes.
 

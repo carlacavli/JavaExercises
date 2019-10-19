@@ -2,7 +2,7 @@ package day9;
 
 import java.util.Scanner;
 
-public class IfElseStatementTask0 {
+public class IfElseStatementHomework0 {
 //    Write a Java program that determines a student’s grade.?
 //The program will read three types of scores(quiz, mid-term, and final scores) and determine the grade based on the following rules:
 //-if the average score >=90% =>grade=A
