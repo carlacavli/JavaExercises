@@ -1,4 +1,4 @@
-package day12;
+package day14;
 
 public class ArrayForLoops4 {
     public static void main(String[] args) {
