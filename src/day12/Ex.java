@@ -17,7 +17,7 @@ public class Ex {
         int j = 1;
         while (j <= 5) {
             System.out.println(j);
-            j = j + 1;
+            j++;
         }
 
         System.out.println("DO-WHILE -----------------------");

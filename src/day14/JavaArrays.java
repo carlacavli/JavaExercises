@@ -1,4 +1,4 @@
-package day12;
+package day14;
 
 /**
  * array is a list with predefined length

@@ -60,10 +60,10 @@ public class WhileLoopQuestions {
 //        }
 //    }
 ////Options:
-////1 HELLO
-////2 HELLO (Infinitely)
-////3 Error: Unreachable statement
-////4 Error: ; expected
+////A HELLO
+////B HELLO (Infinitely)
+////C Error: Unreachable statement
+////D Error: ; expected
 //
 
 }
