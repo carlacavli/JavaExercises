@@ -1,4 +1,4 @@
-package day14;
+package day16;
 
 public class MultiDimensionalArrays {
 

@@ -31,8 +31,6 @@ public class JavaArrays {
 
     }
 
-    //TODO Task
-    //  0. fill array with some random values in range 0-10 and find average
-    //  ex: [1, 5, 6, 8] => 20/4 => 5
+
 
 }

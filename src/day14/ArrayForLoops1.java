@@ -1,6 +1,6 @@
 package day14;
 
-public class ArrayForLoops4 {
+public class ArrayForLoops1 {
     public static void main(String[] args) {
         int[] arr = {2, 11, 45, 9};
 
