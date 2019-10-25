@@ -6,5 +6,7 @@ public class ArrayForLoops4 {
         for (int num : arr) {
             System.out.println(num);
         }
+
+
     }
 }
