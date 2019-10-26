@@ -1,7 +1,7 @@
 package day15;
 
 public class ArrayTask3 {
-    // you have string array of numbers,
-    // change data type to int
-    //ex: {"11", "13", "17"} =>  {11, 13, 17}
+    //TODO Task
+    // part1. fill array with random values
+    // part2. print it in reverse order
 }
