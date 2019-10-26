@@ -1,11 +1,9 @@
-package day15;
+package day16;
 
-public class Task {
-    //TODO Task
-    // Return the number of even ints in the given array.
-    // d
-    // Given an array of ints, return true if there is a 1 in the array with a 2 somewhere later in the array.
-    // has12([1, 3, 2]) → true
+public class NestingStatements {
+
+    //nested if
+    //nested loop
     // 1. write program that prints this using loops
     //    *
     //    **
@@ -24,5 +22,4 @@ public class Task {
     //     * *
     //      *
     // 3. Make interactive calculator ¯\_(ツ)_/¯
-
 }
