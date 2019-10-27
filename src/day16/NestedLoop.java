@@ -12,8 +12,12 @@ public class NestedLoop {
 }
 
 //rows and columns
-//*****
-//*****
-//*****
-//*****
-//*****
+//  12345
+//a *****
+//b *****
+//c *****
+//d *****
+//e *****
+
+// 1,2,3,4,5 are columns
+// a,b,c,d,e are rows
