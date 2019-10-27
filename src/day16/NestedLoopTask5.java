@@ -9,11 +9,11 @@ public class NestedLoopTask5 {
     // *
     public static void main(String[] args) {
         System.out.println("HARD CODED -------------------------");
-        System.out.println("    *");
-        System.out.println("   **");
-        System.out.println("  ***");
-        System.out.println(" ****");
         System.out.println("*****");
+        System.out.println("**** ");
+        System.out.println("***  ");
+        System.out.println("**   ");
+        System.out.println("*    ");
 
         System.out.println("USING LOOPS ----------------------");
         for (int i = 0; i <= 5; i++) {
