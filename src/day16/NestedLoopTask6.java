@@ -1,12 +1,12 @@
 package day16;
 
-public class NestedLoopTask4 {
+public class NestedLoopTask6 {
     //TODO Write program that prints this using loops
-    // *****
-    //  ****
-    //   ***
-    //    **
     //     *
+    //    **
+    //   ***
+    //  ****
+    // *****
     public static void main(String[] args) {
         System.out.println("HARD CODED -------------------------");
         System.out.println("    *");

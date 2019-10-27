@@ -2,7 +2,7 @@ package day16;
 
 public class NestedStatementsQuestion {
 
-    //    What is the output of this program?
+//    What is the output of this program?
 //
 //    class Output {
 //        public static void main(String args[])
