@@ -1,11 +1,12 @@
 package day16;
 
 public class Homework {
-//           walmart	costco	corrado's
-//    apple 	3	       4	   5
-//    milk	    3          3	   3
-//    meat   	4	       5	   4
-//    bread	    1	       1	   2
+//         walmart	costco	corrado's	AVG
+//    apple	3	       4	   5	     4
+//    milk	3	       3	   3	     3
+//    meat	4          5	   4	     4.33
+//    bread	1	       1	   2	     1.33
+//    TOTAL	11	      13	   14
 
     // given table,
     // part1. calculate sum of price in each market(walmart,costco,corrado's)
