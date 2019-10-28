@@ -1,6 +1,5 @@
 package day16;
 
-import jdk.swing.interop.SwingInterOpUtils;
 
 public class MultiDimensionalArraysExercise1 {
     public static void main(String[] args) {

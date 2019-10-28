@@ -1,4 +1,4 @@
-package day16;
+package day18;
 
 public class NestedStatementsQuestion {
 
