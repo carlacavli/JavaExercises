@@ -22,4 +22,26 @@ public class Homework {
     // average price of meat is: ???
     // average price of bread is: ???
 
+    public static void main(String[] args) {
+        int[][] prices = {
+                {3, 4, 5},
+                {3, 3, 3},
+                {4, 5, 4},
+                {1, 1, 2}
+        };
+
+        for (int i = 0; i < prices.length; i++) {
+            int sum = 0;
+            for (int j = 0; j < prices[i].length; j++) {
+                System.out.print(prices[i][j] + " ");
+                sum += prices[i][j]; // sum = sum + prices[i][j];
+            }
+            double avg = (double) sum / prices[i].length;
+            System.out.print("\nSum is: " + sum);
+            System.out.print("\nAvg is: " + avg);
+
+            System.out.println();
+        }
+    }
+
 }

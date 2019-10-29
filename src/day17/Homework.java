@@ -24,14 +24,14 @@ public class Homework {
 
     public static void main(String[] args) {
         int[][] prices = {
-                {3, 4, 5},
-                {3, 3, 3},
-                {4, 5, 4},
-                {1, 1, 2}
+                {3, 4, 5 , 5},
+                {3, 3, 3, 5},
+                {4, 5, 4, 3},
+                {4, 5, 4, 3},
+                {1, 1, 2, 34}
         };
-
-        String[] stores = {"Walmart", "Costco", "Corrados"};
-        String[] items = {"apple", "milk", "meat", "bread"};
+        String[] stores = {"Walmart", "Costco", "Corrados", "amazon"};
+        String[] items = {"apple", "milk", "meat", "bread", "pepsi"};
 
 //        int[] storeSum = new int[prices[0].length];
 //        int[] itemAvg = new int[prices.length];
