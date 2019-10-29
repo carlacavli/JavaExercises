@@ -1,4 +1,4 @@
-package day23_Hashmap;
+package day24_Hashmap;
 
 public class HashMapImpl {
 }

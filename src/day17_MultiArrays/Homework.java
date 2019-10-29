@@ -1,4 +1,4 @@
-package day17;
+package day17_MultiArrays;
 
 public class Homework {
 //         walmart	costco	corrado's	AVG

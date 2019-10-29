@@ -1,4 +1,4 @@
-package day18;
+package day18_ArrayList;
 
 public class ArrayTest {
     //    What is the output of this question

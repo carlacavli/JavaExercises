@@ -1,4 +1,4 @@
-package day17;
+package day17_MultiArrays;
 
 public class MultiDimensionalArraysTask3 {
     // Given string 2D array:

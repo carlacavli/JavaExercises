@@ -1,4 +1,4 @@
-package day17;
+package day17_MultiArrays;
 
 public class SearchInMatrix {
     //    Search a 2D Matrix

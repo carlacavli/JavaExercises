@@ -1,4 +1,4 @@
-package day17;
+package day17_MultiArrays;
 
 // Java implementation of iterative Binary Search
 public class BinarySearch {

@@ -1,4 +1,4 @@
-package day17;
+package day17_MultiArrays;
 
 public class StockProblem {
     //    Best Time to Buy and Sell Stock
