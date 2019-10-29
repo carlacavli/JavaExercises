@@ -19,13 +19,7 @@ public class StockProblem {
 //    Input: [7,6,4,3,1]
 //    Output: 0
 //    Explanation: In this case, no transaction is done, i.e. max profit = 0.
-    public int MaxProfit(int[] prices) {
-        int curMax = 0;
-        int max = 0;
-        for (int i = 1; i < prices.length; i++) {
-            curMax = Math.max(0, curMax += prices[i] - prices[i - 1]);
-            max = Math.max(max, curMax);
-        }
-        return max;
+    public int maxProfit(int[] prices) {
+        return -1;
     }
 }
