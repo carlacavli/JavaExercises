@@ -172,18 +172,18 @@ public class ArrayTest {
 
         static void main11(String[] args)
         {
-            String str[] = { "Geeks", "for", "Geeks" };
+            String str[] = { "Techno", "for", "Techno" };
             for (int i = 0; i < str.length; i++)
                 System.out.print(str[i]);
         }
-//    A)GeeksforGeeks
+//    A)TechnoforTechno
 //    B)Error
-//    C)Geeks
+//    C)Techno
 //    D)GfG
 
 //        static void main12(String[] args)
 //        {
-//            String str[] = { "Geeks", "for", "Geeks" };
+//            String str[] = { "Techno", "for", "Techno" };
 //            System.out.println(str.length);
 //            System.out.println(str[0].length);
 //        }
@@ -213,11 +213,11 @@ public class ArrayTest {
 
         public static void main14(String[] args)
         {
-            String str[] = { "geeks", "for", "geeks" };
+            String str[] = { "Techno", "for", "Techno" };
             System.out.print(str[0] + str[1] + str[2]);
         }
 //    Option
-//    A)geeksforgeeks
+//    A)TechnoforTechno
 //    B)gfg
 //    C)Error
 //    D)none
