@@ -24,12 +24,22 @@ public class Homework {
 
     public static void main(String[] args) {
         int[][] prices = {
-                {3, 4, 5 , 5},
+                {3, 4, 5, 5},
                 {3, 3, 3, 5},
                 {4, 5, 4, 3},
                 {4, 5, 4, 3},
                 {1, 1, 2, 34}
         };
+        int[][] prices2 = {
+            new int[]{3, 4, 5, 5},
+            new int[]{3, 3, 3, 5},
+            new int[]{4, 5, 4, 3},
+        };
+        //you have to put the size
+        int[][] price3 = new int[3][5];
+        var check = prices[4].length;
+
+
         String[] stores = {"Walmart", "Costco", "Corrados", "amazon"};
         String[] items = {"apple", "milk", "meat", "bread", "pepsi"};
 
@@ -38,13 +48,16 @@ public class Homework {
 
 
         System.out.println("AVG--------------------------------");
-        for (int i = 0; i < prices.length; i++) {
+        for (int row = 0; row < prices.length; row++) {
+
             double avg = 0;
-            for (int j = 0; j < prices[i].length; j++) {
-                avg += prices[i][j];
+            for (int col = 0; col < prices[row].length; col++) {
+                var t = prices[row][col];
+                avg += prices[row][col];
             }
-            avg /= prices[i].length;
-            System.out.println(items[i] + " avg: " + avg);
+//            var avg = sum / prices[row].length;
+            avg /= prices[row].length;
+            System.out.println(items[row] + " avg: " + avg);
         }
 
         System.out.println("SUM--------------------------------");
