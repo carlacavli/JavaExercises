@@ -50,13 +50,13 @@ public class Homework {
         System.out.println("AVG--------------------------------");
         for (int row = 0; row < prices.length; row++) {
 
-            double avg = 0;
+            double sum = 0;
             for (int col = 0; col < prices[row].length; col++) {
                 var t = prices[row][col];
-                avg += prices[row][col];
+                sum += prices[row][col];
             }
 //            var avg = sum / prices[row].length;
-            avg /= prices[row].length;
+            double avg = sum / prices[row].length;
             System.out.println(items[row] + " avg: " + avg);
         }
 
