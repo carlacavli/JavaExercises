@@ -1,5 +1,5 @@
-package day21_JavaExceptions2;
+package day23_JavaExceptions3;
 
-public class JavaExceptions2 {
+public class JavaExceptions3 {
 //    https://www.javatpoint.com/exception-handling-in-java
 }
