@@ -37,7 +37,7 @@ public class Homework {
         };
         //you have to put the size
         int[][] price3 = new int[3][5];
-        var check = prices[4].length;
+        int check = prices[4].length;
 
 
         String[] stores = {"Walmart", "Costco", "Corrados", "amazon"};
@@ -49,13 +49,10 @@ public class Homework {
 
         System.out.println("AVG--------------------------------");
         for (int row = 0; row < prices.length; row++) {
-
             double sum = 0;
             for (int col = 0; col < prices[row].length; col++) {
-                var t = prices[row][col];
                 sum += prices[row][col];
             }
-//            var avg = sum / prices[row].length;
             double avg = sum / prices[row].length;
             System.out.println(items[row] + " avg: " + avg);
         }

@@ -27,7 +27,7 @@ public class SearchInMatrix {
 //    target = 13
 //    Output: false
     public static void main(String[] args) {
-        var matrix = new int[][]{
+        int[][] matrix = new int[][]{
                 new int[]{1, 3, 5, 7},
                 new int[]{10, 11, 16, 20},
                 new int[]{23, 30, 34, 50},

@@ -30,7 +30,7 @@ public class BinarySearch {
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            var value = arr[mid];
+            int value = arr[mid];
             if (value == target)
                 return mid;
 

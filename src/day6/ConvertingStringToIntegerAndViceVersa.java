@@ -1,7 +1,5 @@
 package day6;
 
-import com.sun.jdi.IntegerValue;
-
 public class ConvertingStringToIntegerAndViceVersa {
 
     public static void main(String[] args) {
