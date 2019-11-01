@@ -2,7 +2,8 @@ package day17_MultiArrays;
 
 public class SearchInMatrix {
     //    Search a 2D Matrix
-//    Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+//    Write an efficient algorithm that searches for a value in an m x n matrix.
+//    This matrix has the following properties:
 //
 //    Integers in each row are sorted from left to right.
 //    The first integer of each row is greater than the last integer of the previous row.
@@ -10,7 +11,7 @@ public class SearchInMatrix {
 //
 //    Input:
 //    matrix = [
-//            [1,   3,  5,  7],
+//            [ 1,  3,  5,  7],
 //            [10, 11, 16, 20],
 //            [23, 30, 34, 50]
 //            ]
@@ -32,15 +33,20 @@ public class SearchInMatrix {
                 new int[]{10, 11, 16, 20},
                 new int[]{23, 30, 34, 50},
         };
-        searchMatrix(matrix, 5);
+        searchMatrix(matrix, 30);
     }
 
-    static boolean searchMatrix(int[][] matrix, int target) {
+    static boolean searchMatrix(int[][] matrix, int targetNumber) {
         int row = 0, col = matrix[0].length - 1;
         while (row < matrix.length && col >= 0) {
-            if (matrix[row][col] == target) {
+            //matrix[0][3] = value is 7
+            //matrix[1][3] = value is 20
+            //matrix[2][3] = value is 50
+            //matrix[2][2] = value is 34
+            //matrix[2][1] = value is 30
+            if (matrix[row][col] == targetNumber) {
                 return true;
-            } else if (matrix[row][col] > target) {
+            } else if (matrix[row][col] > targetNumber) {
                 col--;
             } else {
                 row++;

@@ -30,9 +30,18 @@ public class StockProblem {
         int min = Integer.MAX_VALUE;
         int maxProfit = 0;
         for (int p : prices) {
-            min = Math.min(min, p);
+
+//            min = Math.min(min, p);
+            if (min > p) {
+                min = p;
+            }
             int profit = p - min;
-            maxProfit = Math.max(maxProfit, profit);
+
+//            maxProfit = Math.max(maxProfit, profit);
+
+            if (maxProfit < profit)
+                maxProfit = profit;
+
         }
         System.out.println(maxProfit);
 

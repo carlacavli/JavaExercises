@@ -1,5 +1,7 @@
 package day17_MultiArrays;
 
+import javax.xml.bind.annotation.XmlInlineBinaryData;
+
 public class StockProblem2 {
     //    Best Time to Buy and Sell Stock II
 //    Say you have an array for which the ith element is the price of a given stock on day i.
@@ -26,6 +28,31 @@ public class StockProblem2 {
 //    Input: [7,6,4,3,1]
 //    Output: 0
 //    Explanation: In this case, no transaction is done, i.e. max profit = 0.
+    public static void main(String[] args) {
+//        int[] prices = {7, 1, 5, 3, 6, 4};  //output 7
+//        int[] prices = {1,2,3,4,5}; //output 4
+        int[] prices = {7,6,4,3,1}; //output 0
+        int maxProfit = 0;
+        for (int i = 0; i < prices.length - 1; i++) {
+
+            int currentValue = prices[i];
+            int nextValue = prices[i + 1];
+
+            if (nextValue > currentValue) {
+                maxProfit += (nextValue - currentValue);
+            }
+        }
+        System.out.println(maxProfit);
+//
+//        int[] items = {1, 2, 3, 4, 5};
+//        int profit = 0;
+//        for (int i = 0; i < items.length - 1; i++) {
+//            if (items[i + 1] > items[i]) {
+//                profit += (items[i + 1] - items[i]);
+//            }
+//        }
+    }
+
     public int maxProfit(int[] prices) {
         return -1;
     }
