@@ -7,6 +7,6 @@ public class JavaSetTask16 {
     //ex: [1, 2, 3, 4, 4, 5, 6]  => has duplications
     //ex2: [1, 2, 3] => no duplications
     public static void main(String[] args) {
-        
+
     }
 }
