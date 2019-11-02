@@ -29,7 +29,7 @@ public class ArrayListTasks {
 //9. Write a Java program to copy one array list into another.
 //
 //
-//10. Write a Java program to shuffle elements in a array list.
+//10. Write a Java program to shuffle elements in a array list.[advanced]
 //
 //
 //11. Write a Java program to reverse elements in a array list.
