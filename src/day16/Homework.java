@@ -30,17 +30,22 @@ public class Homework {
                 {1, 1, 2}
         };
 
+        System.out.println("Average price of items");
         for (int i = 0; i < prices.length; i++) {
             int sum = 0;
             for (int j = 0; j < prices[i].length; j++) {
-                System.out.print(prices[i][j] + " ");
                 sum += prices[i][j]; // sum = sum + prices[i][j];
             }
             double avg = (double) sum / prices[i].length;
-            System.out.print("\nSum is: " + sum);
-            System.out.print("\nAvg is: " + avg);
-
-            System.out.println();
+            System.out.println(i +". item avg: " + avg);
+        }
+        System.out.println("Sum price of markets");
+        for (int i = 0; i < prices[0].length; i++) {
+            int sum = 0;
+            for (int j = 0; j < prices.length; j++) {
+                sum += prices[j][i]; // sum = sum + prices[i][j];
+            }
+            System.out.println(i +". market sum: " + sum);
         }
     }
 
