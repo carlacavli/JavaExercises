@@ -8,6 +8,5 @@ public class JavaSetTask16 {
     //ex2: [1, 2, 3] => no duplications
     public static void main(String[] args) {
         
-
     }
 }

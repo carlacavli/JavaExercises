@@ -1,6 +1,6 @@
 package day19_HashSet;
 
-public class HashSetExamples {
+public class HashSetTasks {
 //    https://beginnersbook.com/2013/12/hashset-class-in-java-with-example/
     
 //1. Write a Java program to append the specified element to the end of a hash set.
