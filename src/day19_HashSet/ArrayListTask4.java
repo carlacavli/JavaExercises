@@ -17,6 +17,5 @@ public class ArrayListTask4 {
         //Hint: print third element in arrayList.
         // => Black
         System.out.println("third element in arrayList: " + colors.get(2));
-
     }
 }
