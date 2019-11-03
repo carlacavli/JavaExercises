@@ -24,5 +24,8 @@ public class JavaTreeMap {
         treeMap.put("Melon", 145);
         treeMap.put("Berry", 250);
         System.out.println(treeMap);
+
+
+
     }
 }

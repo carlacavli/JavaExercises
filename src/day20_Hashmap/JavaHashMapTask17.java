@@ -21,5 +21,11 @@ public class JavaHashMapTask17 {
         // if you have "Apple" there, if you have apple, only then change
         // its value to 500
         // Hint: .contains methods
+
+        if(map.containsKey("Apple")){
+            map.put("Apple", 500);
+        }
+        System.out.println(map);
+
     }
 }
