@@ -24,10 +24,11 @@ public class Homework {
 
     public static void main(String[] args) {
         int[][] prices = {
-                {3, 4, 5},
-                {3, 3, 3},
-                {4, 5, 4},
-                {1, 1, 2}
+                {1, 1, 1},
+                {1, 1, 1},
+                {1, 1, 1},
+                {1, 1, 1},
+                {10, 20, 40}
         };
 
         System.out.println("Average price of items");
@@ -40,7 +41,7 @@ public class Homework {
             System.out.println(i +". item avg: " + avg);
         }
         System.out.println("Sum price of markets");
-        for (int i = 0; i < prices[0].length; i++) {
+        for (int i = 0; i < prices[i].length; i++) {
             int sum = 0;
             for (int j = 0; j < prices.length; j++) {
                 sum += prices[j][i]; // sum = sum + prices[i][j];
