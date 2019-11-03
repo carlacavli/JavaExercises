@@ -1,6 +1,8 @@
 package day20_Hashmap;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class JavaHashMapTask12 {
     //12. Write a Java program to get a
@@ -12,7 +14,13 @@ public class JavaHashMapTask12 {
         map.put(3, "Black");
         map.put(4, "White");
         map.put(5, "Blue");
-        
 
+        System.out.println(map.values());
+
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            String value = entry.getValue();
+
+            System.out.println("value is " + value);
+        }
     }
 }
