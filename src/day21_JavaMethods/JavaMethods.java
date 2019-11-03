@@ -1,4 +1,4 @@
-package day24_JavaMethods;
+package day21_JavaMethods;
 
 public class JavaMethods {
 }
