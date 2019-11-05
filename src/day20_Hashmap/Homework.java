@@ -22,10 +22,7 @@ You may assume the string contains only lowercase alphabets.
 
  */
 
-//my approach
-    //use treeMap
-    //put key in list and value in list
-    //reverse lists
-    //print lists
+// approach
+//
 
 }
