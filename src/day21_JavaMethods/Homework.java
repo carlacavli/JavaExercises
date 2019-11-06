@@ -7,5 +7,5 @@ public class Homework {
 //    Expected Output:
 //
 //    Number of words in the string: 9
-    //advanced, put in a new class and call the method from the class.
+    //advanced, put in a new class and call the method from the main method.
 }
