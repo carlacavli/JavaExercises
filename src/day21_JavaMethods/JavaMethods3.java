@@ -1,8 +1,6 @@
 package day21_JavaMethods;
 
-import day22_JavaExceptions1.ComputerDesktop;
-
-import java.util.Scanner;
+import day24_JavaExceptions1.ComputerDesktop;
 
 public class JavaMethods3 {
 

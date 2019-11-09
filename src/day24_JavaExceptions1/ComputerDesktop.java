@@ -1,4 +1,4 @@
-package day22_JavaExceptions1;
+package day24_JavaExceptions1;
 
 public class ComputerDesktop {
     protected int monitor;
