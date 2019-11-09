@@ -10,7 +10,7 @@ public class ArrayEx {
 //        Arrays.sort(a);
         boolean isEqual = Arrays.equals(a, b);
         System.out.println("Are they equal: " + isEqual);
-        
+
 //
     }
 }
