@@ -8,8 +8,12 @@ public class ArrayEx {
         int[] b = {1,2,3,4};
 
 //        Arrays.sort(a);
-        boolean isEqual = Arrays.equals(a, b);
-        System.out.println("Are they equal: " + isEqual);
+//        boolean isEqual = Arrays.equals(a, b);
+//        System.out.println("Are they equal: " + isEqual);
+
+        System.out.println(a);
+        System.out.println(Arrays.toString(a));
+
 
 //
     }
