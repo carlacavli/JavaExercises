@@ -1,5 +1,8 @@
 package day22_Practice;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class ArraysTasks {
     /*
     1. Write a Java program to sort a numeric array and a string array.
@@ -20,4 +23,8 @@ public class ArraysTasks {
     16. String.equals
 
      */
+
+    public static void main(String[] args) {
+        Collections.sort(Arrays.asList(1));
+    }
 }
