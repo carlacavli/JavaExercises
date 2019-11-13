@@ -6,5 +6,7 @@ public class Example {
     public static void main(String[] args) {
         day24_ClassesAndAttributes.Example ex = new day24_ClassesAndAttributes.Example();
         ex.PublicMethod();
+
+        day24_ClassesAndAttributes.Example.TechnoStudyMethod();
     }
 }
