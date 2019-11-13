@@ -1,4 +1,4 @@
-package day25_GitHubProject;
+package day27_GitHub;
 
 public class GitHubProject {
 }

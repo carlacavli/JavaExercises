@@ -1,6 +1,5 @@
 package day21_JavaMethods;
 
-import day24_JavaExceptions1.ComputerDesktop;
 
 public class JavaMethods3 {
 
@@ -8,7 +7,6 @@ public class JavaMethods3 {
 
         Car myCar = new Car();
 
-        ComputerDesktop c = new ComputerDesktop();
 //        c.
         
         Vehicle v = new Vehicle();

@@ -21,7 +21,6 @@ public class Task7 {
         for (Character letter : letterList) {
             letterSet.add(letter);
         }
-
         System.out.println(letterList);
         System.out.println(letterSet);
         if(letterList.size() == letterSet.size()){

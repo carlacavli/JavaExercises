@@ -1,4 +1,4 @@
-package day24_JavaExceptions2;
+package day26_JavaMethods3;
 
 public class JavaExceptions2 {
 //    https://www.javatpoint.com/exception-handling-in-java
