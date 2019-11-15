@@ -1,18 +1,23 @@
 package day9;
 
+
+//input output
+//import
+//print println
+
 import java.util.Scanner;
 
 public class UserInput {
 
-
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        Scanner scan = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        System.out.println("Text is: " + s1);
 
-        System.out.print("Enter your name: ");
-        String name = scan.nextLine();
-        System.out.println("Welcome " + name + "!!!");
-        scan.close(); //why do we have to close.
+        int i1 = sc.nextInt();
+        System.out.println("Integer is: " + i1);
+
 
     }
 }
