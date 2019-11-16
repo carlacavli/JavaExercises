@@ -1,7 +1,7 @@
 package day32.example;
 
 public class Person {
-    
+
     public String name;
     public static String urlToGoogle = "google.com";
 

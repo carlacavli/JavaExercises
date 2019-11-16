@@ -1,8 +1,12 @@
 package day32.example;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
     public int speed;
-    public int doors;
+    public Door doors;
+    public ArrayList<Integer> seats;
     public int wheels;
     public String model;
     public String color;
