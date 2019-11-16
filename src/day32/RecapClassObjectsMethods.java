@@ -13,4 +13,5 @@ public class RecapClassObjectsMethods {
     //3
     // other object as attribute
     // call methods of other class
+
 }
