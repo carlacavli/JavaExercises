@@ -36,16 +36,34 @@ public class Animal {
         }
     }
 
+    public String getCuteness() {
+        String result = "";
+        if (legs == 0) {
+            result = "Not cute";
+        } else if (legs == 2) {
+            result = "Some what cute";
+        } else if (legs == 4) {
+            result = "Perfect";
+        } else if (legs < 0) {
+            result = "OMG";
+        } else if (legs > 4) {
+            result = "MUTANT";
+        }
 
-//        Name: Richard Parker
-//        Age:  5
-//        Weight: 200.10
-//        Breed : Bangal
+        return result;
+    }
+
+
+    // Name: Richard Parker
+    // Age:  5
+    // Weight: 200.10
+    // Breed : Bangal
     public String toString() {
         String output = "Name: " + name + "\n";
         output += "Age: " + age + "\n";
         output += "Weight: " + weight + "\n";
         output += "Breed: " + breed + "\n";
+        output += "Cuteness: " + getCuteness() + "\n";
 
         return output;
     }
