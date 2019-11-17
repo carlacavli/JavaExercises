@@ -1,4 +1,4 @@
-package day32.example;
+package day32.example.sub;
 
 public class Animal {
     public String name; // cat, dog

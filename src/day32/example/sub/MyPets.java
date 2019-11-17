@@ -1,6 +1,4 @@
-package day32.example;
-
-import java.util.ArrayList;
+package day32.example.sub;
 
 public class MyPets {
 

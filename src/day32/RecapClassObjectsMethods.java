@@ -15,3 +15,16 @@ public class RecapClassObjectsMethods {
     // call methods of other class
 
 }
+
+// how to use static method
+class Calculus {
+    public static int sumTwoIntegers(int a, int b) {
+        return a + b;
+    }
+}
+
+// how to use static field, attribute
+class Car{
+    public static int count = 0;
+}
+

@@ -1,5 +1,7 @@
 package day32.example;
 
+import day32.example.sub.Person;
+
 public class HowToUseStatic {
 
     public static void main(String[] args) {

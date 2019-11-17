@@ -34,7 +34,7 @@
 * [Day 34.](src/day34) Project: Collections, methods
 * [Day 35.](src/day35) Constructors and Access Modifiers
 * [Day 36.](src/day36) Exceptions: Exception types and try, catch, finally
-* [Day 37.](src/day37) [Recap: Try, Catch, Finally/Heap and Stack/StringBuilder, StringBuffer
+* [Day 37.](src/day37) [Recap: Try, Catch, Finally/Stack and Heap memory/StringBuilder, StringBuffer
 * [Day 38.](src/day38) Access modifiers, Non access modifiers, Intro OOP
 * [Day 39.](src/day39) Project: Methods
 * [Day 40.](src/day40) OOP: Encapsulation

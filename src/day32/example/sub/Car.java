@@ -1,7 +1,6 @@
-package day32.example;
+package day32.example.sub;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Car {
     public int speed;
