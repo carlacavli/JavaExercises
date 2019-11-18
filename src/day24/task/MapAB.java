@@ -1,4 +1,4 @@
-package day24;
+package day24.task;
 
 public class MapAB {
 //    Modify and print the given map as follows:

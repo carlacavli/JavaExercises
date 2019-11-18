@@ -1,4 +1,4 @@
-package day23;
+package day23.task;
 
 import java.util.HashMap;
 import java.util.Map;
