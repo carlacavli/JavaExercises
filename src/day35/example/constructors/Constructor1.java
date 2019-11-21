@@ -1,4 +1,4 @@
-package day35.example;
+package day35.example.constructors;
 
 public class Constructor1 {
     int value;

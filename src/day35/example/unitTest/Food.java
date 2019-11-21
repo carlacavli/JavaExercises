@@ -1,4 +1,4 @@
-package day35;
+package day35.example.unitTest;
 
 public class Food {
 

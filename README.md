@@ -1,4 +1,4 @@
-# Java For Beginners
+# Java
 * [Day 1.](src/day1) What is Programming?
 * [Day 2.](src/day2) What is Java?
 * [Day 3.](src/day3) DataTypes 1
@@ -49,3 +49,70 @@
 * [Day 48.](src/day48) Interview Prep. for OOP
 * [Day 49.](src/day49) Practice: OOP
 * [Day 50.](src/day50) Selenium Intro
+
+# Testing Tools
+* Selenium - What is selenium? what is the other tools for automation (UFT  ext)? Download Selenium driver.get driver.quit
+* HTML code ? How it works create basic website to understand how html code works  // diffrent type of tags (its really important to understand xpath )
+* Java / Selenium( html create basic website -> if needed basic locators what is locators)
+* Java / Selenium(What is locators xpath - .click -gettext sendkeys gettitle , url ,    )
+* Selenium - What is locators / xpath  
+* Selenium - Implicit wait Explicit wait 
+* Selenium - What is radio button , CheckList click on them 
+* Java / Selenium(Select Class (Dropdown) ) , find ElementS -->>>>COVER ARRAYLIST
+* Java / Selenium(Select Class Action) , Capture the screenShot
+* Selenium Project(website could be --> http://automationpractice.com/index.php)
+* Java / Selenium( Frame / Window handle / i Frame / pop up  )
+* Selenium ->  Scroll down 
+* Selenium Recap ( interview Questions )
+* Project Selenium (We can use same website if we wana change it meridian website )
+* Project Selenium (We can use same website if we wana change it meridian website )
+* What is testNG what is the purpose TestNG , Advantage of testng (Start What is testNG Annotations )
+* TESTng Annotations @Test (create a basic testng class and run it )  @Before @After Method ,Suite Group
+* TestNG / Selenium Parameters, Ignore , Prioritizing  , TestNG.xml    in TestNG
+* Project TestNG 
+* TestNG -  Solve the project on Monday parallel testing
+* TestNG vs JUnit Interview Question 
+* Download Maven What is maven ... , what is dependency  ,POM.xml , JAR file , maven lifecycle PPT could be great , Maven Commands from terminal) Create first maven project and add the dependency for the testNG
+* (Maven class recap from saturday or continue the topic if not finished) What is framework How framework will help us , What is page object model ,What is bbd, 
+* Project Create maven testing project and work on the selenium 
+* Java / Selenium /Cucumber  Add cucumber dependency to pom.xml What is cucumber ? What is Gherkin Language? Why cucumber is important ? What is the advantage of cucumber ? What is given when then in cucumber ? Create Feature file and Step definition class and start running it 
+* Java / Selenium / Cucumber (cover the class from previous day) create couple scenario in ONE feature file 
+* Java / Selenium / Cucumber scenario / scenario outline / example (Use different feature file then thursday class so we could have multiple feature files in the project because next cucumber we ll have runner class we will need the runner in that time)
+* Selenium / Cucumber / Java Understanding the runner class --> Cucumber Options , Tag . Generate Different type of Reports 
+* Project Java / Selenium / TestNG / cucumber Let the student write the feature files and let them create the framework and run all feature files ->  tags and send us the report   (from our website basqar)
+* SQL - What is database testing ? why it is important ? How its look like(Schema) ?  Select * from tableName -> basic sql queries // Download the sql server with a students who wasn't able to download it 
+* SQL  Columns in the sql ,, Aggregate Functions -->  Top / min / max avg / sum / between / count / 
+* SQL continue thursday class topics and  is null not null , and , or , not  , like keywods 
+* SQL -> Order by ,having by , group by  , What is foreign keyword what is primary keyword (Start joins if there is  a time )
+* SQL Join types - inner join outer join 
+* SQL - Interview Questions (Practice SQL)
+* Java / Selenium / JDBC connection (What is Connection , statement  , resultSet )
+* Java / Selenium / JDBC read the data from the database and verify it from the our website 
+* Java / Selenium / JDBC  meta data / Logger 
+* Project Practice Selenium / JDBC (write the test case in gherkin language and create resuable methods then get the data from the sql and website and verify its same)
+* Java Interview Questions question answer with students
+* Recap (JDBC and sql )
+* Jenkins (What is jenkins ? Why we need jenkins ? Advantage of Jenkins ? Jenkins integration with framework)
+* Jenkins 
+* Project Selenium / cucumber / TestNG maven / Jenkins 
+* Java / Selenium / Apache POI (Why need it and what is the importance of it  , Read the data of Apache POI)
+* Java / Selenium / Apache POI (Read the data / write the data in th excel )
+* Java / Selenium Apache POI (Recap) / Logging 
+* Project Logging / Selenium
+* Selenium interview Questions 
+* Selenium Grid (what is selenium grid ? How it is working hub and nods ? how we are going to use it ? Advantage of Selenium Grid )
+* Get the connection the selenium grid and run the code in multiple browser
+* Selenium Grid
+* API - What is API ? What it means two different app connecting to each other ? API Concepts ? What is status code ?  What is params in the URL? Get the connection in the class Start working with postman 
+* Postman / API - request types in the API
+* Postman / API - (request types in the API) 
+* Java / API / RestAssured Libraries(What is JSON format how to store it) RECAP MAP in java
+* Java / API / RestAssured Libraries (Get the data updates)
+* Java / API / RestAssured libraries (Post then after get request) 
+* Project API 
+* API Interview Questions 
+* NoSQL / MongoDB, Difference between between SQL and NoSQL
+* MongoDB, cluster, replica, document, id, nested document
+* MongoDB, basic operations, CRUD, Intro to Aggregation
+* MongoDB, project, samples
+* Interview Prep.
