@@ -21,7 +21,7 @@ class Food {
 
 }
 
-public class Ex4 {
+public class Example5 {
     public static void main(String[] args) {
         Food pie = new Food();
         pie.name = "Teramisu";
