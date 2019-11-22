@@ -1,6 +1,7 @@
 package day35.example.constructors;
 
 public class Constructor1 {
+
     int value;
 
     public Constructor1(int val) {
