@@ -25,7 +25,6 @@ public class Task2 {
 
         Bank td = new Bank(2005, 101010, "TD", true);
         System.out.println(td.printOut());
-
     }
 
 }
