@@ -8,8 +8,7 @@ class Bank {
     public String publicInfo() {
         String var = "";
         String publicInfo = "Name is: Chase \n" + var;
-
-        return publicInfo;// + privateInfo;
+        return publicInfo;
     }
 }
 
