@@ -6,8 +6,8 @@ public class ConstructorsAndAccessModifiers {
 
 
     // Access Modifiers
-    // public
-    // private
+    // public - accessible from everywhere
+    // private - accessible only in class
     // protected
     // default package
 }
