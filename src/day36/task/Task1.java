@@ -5,9 +5,12 @@ package day36.task;
 
 public class Task1 {
     public static void main(String[] args) {
-        int[] numbers = new int[5];
+        int[] numbers = new int[15];
 
-        System.out.println(numbers[10]);
-
+        try {
+            System.out.println(numbers[10]);
+        }catch (Exception ex){
+            System.out.println("Something happened");
+        }
     }
 }
